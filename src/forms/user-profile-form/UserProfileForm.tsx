@@ -85,7 +85,7 @@ const UserProfileForm = ({
           <FormField
             control={form.control}
             name="addressLine1"
-            render={({ field }) => (
+            render={({ field }) => (//render keyword in the FormField component allows you to define custom rendering logic for form fields, enabling greater flexibility and control over the appearance and behavior of individual form elements within a larger form structure.
               <FormItem className="flex-1">
                 <FormLabel>Address Line 1</FormLabel>
                 <FormControl>

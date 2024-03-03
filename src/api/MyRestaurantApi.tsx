@@ -4,7 +4,7 @@ import { useMutation, useQuery } from "react-query";
 import { toast } from "sonner";
 
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
-
+//Get Restaurant
 export const useGetMyRestaurant = () => {
   const { getAccessTokenSilently } = useAuth0();
 
@@ -31,7 +31,7 @@ export const useGetMyRestaurant = () => {
 
   return { restaurant, isLoading };
 };
-
+//Create Restaurant
 export const useCreateMyRestaurant = () => {
   const { getAccessTokenSilently } = useAuth0();
 
@@ -66,7 +66,7 @@ export const useCreateMyRestaurant = () => {
 
   return { createRestaurant, isLoading };
 };
-
+//Update Restaurant
 export const useUpdateMyRestaurant = () => {
   const { getAccessTokenSilently } = useAuth0();
 
@@ -107,7 +107,7 @@ export const useUpdateMyRestaurant = () => {
 
   return { updateRestaurant, isLoading };
 };
-
+//Get Restaurant Orders
 export const useGetMyRestaurantOrders = () => {
   const { getAccessTokenSilently } = useAuth0();
 
@@ -141,6 +141,7 @@ type UpdateOrderStatusRequest = {
   status: string;
 };
 
+//Update UpdateMyRestaurantOrder
 export const useUpdateMyRestaurantOrder = () => {
   const { getAccessTokenSilently } = useAuth0();
 

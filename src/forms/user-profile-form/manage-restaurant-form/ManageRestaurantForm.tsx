@@ -23,7 +23,7 @@ const formSchema = z
     country: z.string({
       required_error: "country is required",
     }),
-    deliveryPrice: z.coerce.number({
+    deliveryPrice: z.coerce.number({//Number එකක් නිසා මෙහෙම coerce දාන්නේ 
       required_error: "delivery price is required",
       invalid_type_error: "must be a valid number",
     }),
@@ -91,11 +91,13 @@ const ManageRestaurantForm = ({ onSave, isLoading, restaurant }: Props) => {
 
   const onSubmit = (formDataJson: RestaurantFormData) => {
     const formData = new FormData();
-
+    //Todo - convert to for formDataJson to a new FormData Object
+    //plain JavaScript Object json to formData Object
+    //plain JavaScript object (formData Json) to a FormData object and send it to your React Query hook for further processing
     formData.append("restaurantName", formDataJson.restaurantName);
     formData.append("city", formDataJson.city);
     formData.append("country", formDataJson.country);
-
+    
     formData.append(
       "deliveryPrice",
       (formDataJson.deliveryPrice * 100).toString()
@@ -120,6 +122,7 @@ const ManageRestaurantForm = ({ onSave, isLoading, restaurant }: Props) => {
     }
 
     onSave(formData);
+    //from this place Data in fields is sent to usemutation hook or useQuery hook
   };
 
   return (
