@@ -23,17 +23,11 @@ type Props = {
   currentUser: User;
   onSave: (userProfileData: UserFormData) => void;
   isLoading: boolean;
-  //title?: string;
-  //buttonText?: string;
+  title?: string;
+  buttonText?: string;
 };
 
-const UserProfileForm = ({
-  onSave,
-  isLoading,
-  currentUser,
-  //title = "User Profile",
-  // = "Submit",
-}: Props) => {
+const UserProfileForm = ({onSave, isLoading, currentUser, title = "User Profile", buttonText = "Submit",}: Props) => {
   const form = useForm<UserFormData>({ //react hook Form Library
     resolver: zodResolver(formSchema),
     defaultValues: currentUser,
@@ -49,7 +43,7 @@ const UserProfileForm = ({
         className="space-y-4 bg-gray-50 rounded-lg md:p-10"
       >
         <div>
-          <h2 className="text-2xl font-bold"></h2>
+          <h2 className="text-2xl font-bold">P{title}</h2>
           <FormDescription>
             View and change your profile information here
           </FormDescription>
@@ -126,7 +120,7 @@ const UserProfileForm = ({
           <LoadingButton />
         ) : (
           <Button type="submit" className="bg-orange-500">
-                Submit
+                {buttonText}
           </Button>
         )}
       </form>
