@@ -8,35 +8,33 @@ This Project Using React Frontend and backend is Node Js,Express,MongoDb Okta is
 </kbd>
 
 <kbd>
-  <img src="/src/assets/screencapture-localhost-5173-2024-10-21-23_26_02.png"  alt="GameHub HomePage With Filter Function"/>
+  <img src="/src/assets/screencapture-localhost-5173-2024-10-21-23_26_02.png"  alt="Home Page"/>
 </kbd>
 
 <kbd>
-  <img src="/src/assets/screencapture-checkout-stripe-c-pay-cs-test-b1EaDVxLnqVtXGClRVftFJab79yF1UEXvzSNvh3HjLAwbw7gG9Nd8Jb576-2024-10-21-23_43_11.png"  alt="GameHub HomePage With Filter Function"/>
+  <img src="/src/assets/screencapture-localhost-5173-2024-10-21-23_43_25.png"  alt="Home Page Hove Details"/>
+</kbd>
+<kbd>
+  <img src="/src/assets/screencapture-localhost-5173-user-profile-2024-10-21-23_46_00.png"  alt="Restaurant List Page"/>
+</kbd>
+<kbd>
+  <img src="/src/assets/screencapture-localhost-5173-detail-65e48795f172f080bfad0986-2024-10-21-23_42_35.png"  alt="Details page"/>
+</kbd>
+<kbd>
+  <img src="/src/assets/screencapture-localhost-5173-detail-65e48795f172f080bfad0986-2024-10-21-23_42_45.png"  alt="Details page"/>
+</kbd>
+<kbd>
+  <img src="/src/assets/screencapture-localhost-5173-manage-restaurant-2024-10-21-23_44_00.png"  alt="Mange Order page"/>
 </kbd>
 
 <kbd>
-  <img src="/src/assets/screencapture-localhost-5173-2024-10-21-23_43_25.png"  alt="GameHub HomePage With Filter Function"/>
+  <img src="/src/assets/screencapture-localhost-5173-manage-restaurant-2024-10-21-23_44_14.png"  alt="manage-restaurant"/>
 </kbd>
 
 <kbd>
-  <img src="/src/assets/screencapture-localhost-5173-detail-65e48795f172f080bfad0986-2024-10-21-23_42_35.png"  alt="GameHub HomePage With Filter Function"/>
-</kbd>
-<kbd>
-  <img src="/src/assets/screencapture-localhost-5173-detail-65e48795f172f080bfad0986-2024-10-21-23_42_45.png"  alt="GameHub HomePage With Filter Function"/>
-</kbd>
-<kbd>
-  <img src="/src/assets/screencapture-localhost-5173-manage-restaurant-2024-10-21-23_44_00.png"  alt="GameHub HomePage With Filter Function"/>
+  <img src="/src/assets/screencapture-localhost-5173-search-london-2024-10-21-23_41_10.png"  alt="search page"/>
 </kbd>
 
 <kbd>
-  <img src="/src/assets/screencapture-localhost-5173-manage-restaurant-2024-10-21-23_44_14.png"  alt="GameHub HomePage With Filter Function"/>
-</kbd>
-
-<kbd>
-  <img src="/src/assets/screencapture-localhost-5173-search-london-2024-10-21-23_41_10.png"  alt="GameHub HomePage With Filter Function"/>
-</kbd>
-
-<kbd>
-  <img src="/src/assets/screencapture-localhost-5173-user-profile-2024-10-21-23_46_00.png"  alt="GameHub HomePage With Filter Function"/>
+  <img src="/src/assets/screencapture-checkout-stripe-c-pay-cs-test-b1EaDVxLnqVtXGClRVftFJab79yF1UEXvzSNvh3HjLAwbw7gG9Nd8Jb576-2024-10-21-23_43_11.png"  alt="checkout-stripe"/>
 </kbd>
