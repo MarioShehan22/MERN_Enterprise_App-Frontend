@@ -25,6 +25,7 @@ const OrderItemCard = ({ order }: Props) => {
 
   useEffect(() => {
     setStatus(order.status);
+    console.log((order.totalAmount / 100).toFixed(2));
   }, [order.status]);
 
   const handleStatusChange = async (newStatus: OrderStatus) => {

@@ -9,8 +9,10 @@ const ManageRestaurantPage = () => {
   const { updateRestaurant, isLoading: isUpdateLoading } =useUpdateMyRestaurant();
 
   const { orders } = useGetMyRestaurantOrders();
-
-  const isEditing = !!restaurant;//Logic Here
+ 
+  restaurant?._id;
+  
+  const isEditing = !! restaurant;//Logic Here
 
   return (
     <Tabs defaultValue="orders">

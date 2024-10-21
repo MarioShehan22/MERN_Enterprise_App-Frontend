@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 import { useAuth0 } from "@auth0/auth0-react";
 
 const MainNav = () => {
-    const{loginWithRedirect,isAuthenticated}=useAuth0();
+  const{loginWithRedirect,isAuthenticated}=useAuth0();
   return(
     
     <span className="flex space-x-2 items-center">

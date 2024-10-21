@@ -1,30 +1,42 @@
-# React + TypeScript + Vite
+# YUM YUM Food Ordering App 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This Project Using React Frontend and backend is Node Js,Express,MongoDb Okta is Authentication sever part handle and Strip is Payment Gateway
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<kbd>
+  <img src="/src/assets/screencapture-dev-5r5pkbqmjppxjpzb-us-auth0-u-login-2024-10-21-23_21_12.png"  alt="Login page"/>
+</kbd>
 
-## Expanding the ESLint configuration
+<kbd>
+  <img src="/src/assets/screencapture-localhost-5173-2024-10-21-23_26_02.png"  alt="GameHub HomePage With Filter Function"/>
+</kbd>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<kbd>
+  <img src="/src/assets/screencapture-checkout-stripe-c-pay-cs-test-b1EaDVxLnqVtXGClRVftFJab79yF1UEXvzSNvh3HjLAwbw7gG9Nd8Jb576-2024-10-21-23_43_11.png"  alt="GameHub HomePage With Filter Function"/>
+</kbd>
 
-- Configure the top-level `parserOptions` property like this:
+<kbd>
+  <img src="/src/assets/screencapture-localhost-5173-2024-10-21-23_43_25.png"  alt="GameHub HomePage With Filter Function"/>
+</kbd>
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+<kbd>
+  <img src="/src/assets/screencapture-localhost-5173-detail-65e48795f172f080bfad0986-2024-10-21-23_42_35.png"  alt="GameHub HomePage With Filter Function"/>
+</kbd>
+<kbd>
+  <img src="/src/assets/screencapture-localhost-5173-detail-65e48795f172f080bfad0986-2024-10-21-23_42_45.png"  alt="GameHub HomePage With Filter Function"/>
+</kbd>
+<kbd>
+  <img src="/src/assets/screencapture-localhost-5173-manage-restaurant-2024-10-21-23_44_00.png"  alt="GameHub HomePage With Filter Function"/>
+</kbd>
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<kbd>
+  <img src="/src/assets/screencapture-localhost-5173-manage-restaurant-2024-10-21-23_44_14.png"  alt="GameHub HomePage With Filter Function"/>
+</kbd>
+
+<kbd>
+  <img src="/src/assets/screencapture-localhost-5173-search-london-2024-10-21-23_41_10.png"  alt="GameHub HomePage With Filter Function"/>
+</kbd>
+
+<kbd>
+  <img src="/src/assets/screencapture-localhost-5173-user-profile-2024-10-21-23_46_00.png"  alt="GameHub HomePage With Filter Function"/>
+</kbd>

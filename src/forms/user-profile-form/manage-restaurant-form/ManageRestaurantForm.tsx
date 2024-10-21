@@ -122,7 +122,7 @@ const ManageRestaurantForm = ({ onSave, isLoading, restaurant }: Props) => {
     }
 
     onSave(formData);
-    //from this place Data in fields is sent to usemutation hook or useQuery hook
+    //from this place Data in fields is sent to use mutation hook or useQuery hook
   };
 
   return (

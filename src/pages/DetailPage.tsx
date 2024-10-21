@@ -15,6 +15,7 @@ export type CartItem = {
     name: string;
     price: number;
     quantity: number;
+    
   };
 const DetailPage = () => {
     const{restaurantId }=useParams();
@@ -99,6 +100,7 @@ const { createCheckoutSession, isLoading: isCheckoutLoading } =useCreateCheckout
           country: userFormData.country,
           email: userFormData.email as string,
         },
+       
       };
       const data = await createCheckoutSession(checkoutData);
     window.location.href = data.url;
